@@ -5,29 +5,31 @@ function Footer() {
   return (
     <div className="nav">
       <ul className="navbar">
-        <a href="#">
-        <li>About</li>
-        </a>
-        <a href="#">
-        <li>Advertising</li>
-        </a>
-        <a href="#">
-        <li>Business</li>
-        </a>
-        <li>Investor</li>
-        <a href="#">
-        <li>We are Hiring</li>
-        </a>
+        <li>
+        <a href="#about">About</a>
+        </li>
+        <li>
+        <a href="#ads">Advertising</a>
+        </li>
+        <li>
+        <a href="#business">Business</a>
+        </li>
+        <li>
+        <a href="#investor">Investor</a>
+        </li>
+        <li>
+        <a href="#hiring">We are Hiring</a>
+        </li>
         <div className="right-items">
-            <a href="#">
-          <li>Privacy</li>
-          </a>
-          <a href="#">
-          <li>Terms</li>
-          </a>
-          <a href="#">
-          <li>Help</li>
-          </a>
+        <li>
+        <a href="#privacy">Privacy</a>
+        </li>
+        <li>
+        <a href="#term">Term</a>
+        </li>
+        <li>
+        <a href="#help">Help</a>
+        </li>
         </div>
       </ul>
     </div>

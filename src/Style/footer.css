@@ -33,8 +33,13 @@ body {
     padding: 10px;
     transition: background-color 0.3s;
   }
+
+  .navbar a{
+    text-decoration: none; 
+    color: black;  
+  }
   
-  .navbar li:hover {
+  .navbar a:hover {
     color: green;
   }
   
@@ -43,6 +48,8 @@ body {
     display: flex;
     gap: 3%;
   }
+
+
   
   /* Responsive Styles for smaller screens */
   @media (max-width: 768px) {
