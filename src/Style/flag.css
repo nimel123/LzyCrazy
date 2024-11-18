@@ -1,0 +1,21 @@
+.flag {
+    padding: .5rem 2rem;
+    border-bottom: 1px solid #ddd;
+    color: #423d3dc1;
+}
+
+
+
+@media (max-width: 1200px) {
+    .flag {
+        padding: 1.5rem 2rem;
+        border-bottom: 1px solid #ddd;
+        color: #423d3dc1;
+    }
+}
+
+.flagicon{
+    width: 20px;
+    height: 20px;
+}
+
